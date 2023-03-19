@@ -1,0 +1,65 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSD</title>
+    <style>
+        h2
+        {
+            display: inline;
+            padding: 8px;
+            margin: 140px;
+        }
+        img
+        {
+            padding: 5px;
+        }
+    </style>
+    <link rel="stylesheet" href="{% static 'css/c1.css' %}">
+</head>
+<body>
+    <center>
+        <h1>MAHENDRA SINGH DHONI</h1>
+    </center>
+    <div>
+        <h2><a href=" {% url 'india' %}">HOME</a></h2>
+        <h2><a href="{% url 'virat' %}">VIRAT</a> </h2>
+        <h2><a href="{% url 'rohit' %}">ROHIT</a> </h2>
+    </div>
+    <p>Mahendra Singh Dhoni ( born 7 July 1981), commonly known as MS Dhoni, is a former Indian cricketer and captain of the Indian national team in limited-overs formats from 2007 to 2017, and in Test 
+        cricket from 2008 to 2014. He is also the current captain of Chennai Super Kings in the Indian Premier League. Under his captaincy, India won the 2007 ICC World Twenty20, the 2011 Cricket World Cup, 
+        and the 2013 ICC Champions Trophy,the most by any captain. He also led India to victory in the 2010 and 2016 Asia Cup. Additionally, under his leadership, India won the 2010 and 2011 ICC Test Mace 
+        and 2013 ICC ODI Championship.Dhoni is a right-handed wicket-keeper batsman known for his calm captaincy and his ability to finish matches in tight situations. Mahi scored 17,266 runs in International 
+        Cricket (including 10,000 plus runs in ODI Internationals) and is considered one of the best finishers in the game. He is also one of the greatest wicket-keepers and captains in the history of cricket.
+        In Indian domestic cricket he played for Bihar and Jharkhand Cricket team. He is the captain of Chennai Super Kings (CSK) in the Indian Premier League. He captained the side to championships in the 2010, 
+        2011, 2018 and 2021 editions of IPL league. He also scored 4,978 runs in IPL. </p>
+    <img src=" {% static 'images/dhoni1.jpg' %} " alt="">
+    <img src=" {% static 'images/dhoni.jpg' %} " alt="">
+    <img src=" {% static 'images/dhoni2.jpg' %}" alt="DHONI IMAGE">
+    <img src=" {% static 'images/dhoni3.jpg' %} " alt="">
+    <p> <b><h3>International records</h3></b>
+        <b> <h4> Test cricket </h4></b>
+        <li> Dhoni is the first Indian wicket-keeper to score 4,000 Test runs.</li>
+        <li>After hitting a six in the third Test against England in Southampton, Dhoni completed 50 sixes as a captain, an Indian record.</li>
+        <li>Dhoni, with 294 dismissals in his career, ranks first in the all-time dismissals list by Indian wicket-keepers.</li>
+        <b> <h4> ODI cricket </h4></b>
+        <li>Dhoni is the third captain (and the first non-Australian) overall to win 100 games.</li>
+        <li>First player to pass 10,000 runs in ODI cricket with having a career average of over 50.</li>
+        <li>Most not outs (84) in ODIs.</li>
+        <li>Dhoni's 183* against Sri Lanka in 2005 is the highest score by a wicket-keeper.</li>
+        <li>Dhoni and Bhuvneshwar Kumar were involved in a partnership of 100 not out against Sri Lanka, which is India's highest eighth wicket partnership in ODIs.</li>
+        <li>Dhoni holds the records of the most dismissals in an innings (6) and career (432) by an Indian wicket-keeper.</li>
+        <li>Dhoni has the most stumpings (123) by any wicket-keeper in an ODI career, and is so far the only keeper to pass 100 stumpings.</li>
+        <b><h4>T20I Cricket</h4></b>
+        <li>Dhoni holds the record for playing the most T20I innings (76) and scored the most runs (1,153) before scoring a fifty</li>
+        <li>Most dismissals as wicket-keeper in T20Is (91)</li>
+        <li>Most stumpings as wicket-keeper in T20Is (34)</li>
+        <li>Most catches as wicket keeper in a T20I innings (5)</li>
+        <b><h4>Combined ODI, Test and T20I</h4></b>
+        <li> He has played the most international matches as captain (332)</li>
+        <li> Dhoni is the first, and so far only, wicket-keeper to make 150 stumpings across the three forms of the game. His current total of stumpings in internationals stands at 195</li></p>
+</body>
+</html>

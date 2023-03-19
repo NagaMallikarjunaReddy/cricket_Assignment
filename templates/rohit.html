@@ -1,0 +1,69 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROHIT SHARMA</title>
+    <style>
+        h2
+        {
+            display: inline;
+            padding: 8px;
+            margin: 140px;
+        }
+        img
+        {
+            padding: 11px;
+        }
+        body
+        {
+             background: aqua;
+             background-image: linear-gradient(orange,white,green);
+        } 
+    </style>
+    <link rel="stylesheet" href="{% static 'css/c1.css' %}">
+</head>
+<body>
+        <center>
+            <h1>ROHIT SHARMA</h1>
+        </center>
+        <h1>
+            <h2><a href=" {% url 'india' %}">HOME</a></h2>
+            <h2><a href="{% url 'dhoni' %}">DHONI</a> </h2>
+            <h2><a href="{% url 'virat' %}">VIRAT</a> </h2>
+        </h1>
+        <p>Rohit Gurunath Sharma (born 30 April 1987), is an Indian international cricketer and the current captain of India men’s cricket team in all formats. 
+            Considered as one of the best batsman of his generation and one of greatest opening batters of all time,[1] Rohit is known for his timing, elegance, 
+            six-hiting abilities and leadership skills. He plays as a right-handed batsman for India national cricket team in international cricket, Mumbai Indians 
+            in IPL and for Mumbai in domestic cricket. Rohit also captains Mumbai Indians and the team has won 5 titles under his leadership, the most by any team. 
+            Sharma currently holds the world record for the highest individual score (264) in a One Day International (ODI) match and is the only player to have scored 
+            three double-centuries in ODIs and also holds the record for scoring most hundreds (five) in a single Cricket World Cup, for which he won the ICC Men's ODI 
+            Cricketer of the Year award in 2019. Sharma has received two national honours, the Arjuna Award in 2015 and the prestigious Major Dhyan Chand Khel Ratna in 2020.
+            Outside cricket, Sharma is an active supporter of animal welfare campaigns. He is the official Rhino Ambassador for WWF-India and is a member of People for the 
+            Ethical Treatment of Animals (PETA). He has worked with PETA in its campaign to raise awareness of the plight of homeless cats and dogs in India.</p>
+        <img src="{% static 'images/rohit.jpg' %}" alt="",width='300px' height="200px">
+        <img src="{% static 'images/rohit1.jpg' %}" alt="",width='300px' height="200px">
+        <img src="{% static 'images/rohit2.jpg' %}" alt="",width='300px' height="200px">
+        <img src="{% static 'images/rohit3.jpg' %}" alt="",width='300px' height="200px">
+        <p><b><h3>Achievements</h3></b>
+            Sharma holds the world record for the highest individual score by a batsman playing in a one-day international match, having scored 264 against Sri Lanka at Eden Gardens, 
+            Kolkata, on 13 November 2014.He is the only player to have scored three double-centuries in this form of international cricket.In January 2020, Sharma was named as the ODI 
+            Player of the Year by the International Cricket Council (ICC).During the 2019 World Cup, Sharma became the only batsman to scored five centuries in a single edition of the 
+            Cricket World Cup.On 5 October 2019, during a Test match against South Africa, Sharma became the first batsman to score two centuries in a match on his first appearance as
+            an opening batsman. In the same series, he broke Shimron Hetmyer's record for the highest number of sixes in a Test series.
+            <b><h4>National honours</h4></b>
+            <li>Sharma receiving Arjuna award</li>
+            <li>2015  Arjuna Award[100]</li>
+            <li>2020  Major Dhyan Chand Khel Ratna</li>
+            <b><h4>Sporting honours</h4></b>
+            <li>ICC Men's ODI Cricketer of the Year: 2019</li>
+            <li>ICC Men's ODI Team of the Year: 2014 (12th man), 2016, 2017, 2018, 2019</li>
+            <li>ICC Men's ODI Team of the Decade: 2011–2020</li>
+            <li>ICC Men's T20I Team of the Decade: 2011–2020</li>
+            <li>ICC Men's Test Team of the Year: 2021</li>
+            <li>For his achievements on India's tour of England in 2021, Sharma was selected by Wisden Cricketers' Almanack as one of the five Wisden Cricketers of the Year in its 2022 edition.</li></p>
+    
+</body>
+</html>
